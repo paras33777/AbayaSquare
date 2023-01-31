@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" id="KGk-i7-Jjw" customClass="CategoryCellTV" customModule="AbayaSquare" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5Gu-WH-dny" customClass="AnimatableView" customModule="IBAnimatable">
+                        <rect key="frame" x="8" y="11" width="22" height="22"/>
+                        <subviews>
+                            <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="checkmark" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="wUz-5K-uzC">
+                                <rect key="frame" x="3" y="4" width="16" height="14.5"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="14" weight="bold"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="22" id="Gbh-Px-VNk"/>
+                            <constraint firstItem="wUz-5K-uzC" firstAttribute="centerX" secondItem="5Gu-WH-dny" secondAttribute="centerX" id="MdX-oE-uPI"/>
+                            <constraint firstItem="wUz-5K-uzC" firstAttribute="centerY" secondItem="5Gu-WH-dny" secondAttribute="centerY" id="RBC-gw-E3X"/>
+                            <constraint firstAttribute="width" constant="22" id="RJy-Th-Jb4"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                <real key="value" value="1.5"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                <color key="value" red="0.48627450980392156" green="0.44313725490196076" blue="0.37647058823529411" alpha="1" colorSpace="calibratedRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="T-Shirts &amp; Polo Shirts" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PVZ-AW-HBe">
+                        <rect key="frame" x="44" y="12" width="228.5" height="20"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.15294117647058825" green="0.15294117647058825" blue="0.15294117647058825" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="253" verticalHuggingPriority="251" text="230" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ieO-rI-osh">
+                        <rect key="frame" x="284.5" y="13" width="27.5" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="5Gu-WH-dny" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="8Q4-TR-mo2"/>
+                    <constraint firstItem="PVZ-AW-HBe" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="12" id="Rn6-09-t3W"/>
+                    <constraint firstItem="ieO-rI-osh" firstAttribute="leading" secondItem="PVZ-AW-HBe" secondAttribute="trailing" constant="12" id="i4M-oe-ciN"/>
+                    <constraint firstItem="ieO-rI-osh" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="kqM-Jy-SDu"/>
+                    <constraint firstAttribute="bottom" secondItem="PVZ-AW-HBe" secondAttribute="bottom" constant="12" id="rOL-z2-AmS"/>
+                    <constraint firstAttribute="trailing" secondItem="ieO-rI-osh" secondAttribute="trailing" constant="8" id="t7T-8O-ePK"/>
+                    <constraint firstItem="PVZ-AW-HBe" firstAttribute="leading" secondItem="5Gu-WH-dny" secondAttribute="trailing" constant="14" id="udA-M1-k22"/>
+                    <constraint firstItem="5Gu-WH-dny" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="uq5-XA-pg0"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="cellLB" destination="PVZ-AW-HBe" id="HQv-z1-UT1"/>
+                <outlet property="checkImage" destination="wUz-5K-uzC" id="yN2-Xr-Zu6"/>
+                <outlet property="checkView" destination="5Gu-WH-dny" id="hfr-gX-L0h"/>
+                <outlet property="productCountLB" destination="ieO-rI-osh" id="b6t-HL-rvt"/>
+            </connections>
+            <point key="canvasLocation" x="-9" y="88"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="checkmark" catalog="system" width="128" height="114"/>
+    </resources>
+</document>

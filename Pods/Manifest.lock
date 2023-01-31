@@ -1,0 +1,238 @@
+PODS:
+  - Alamofire (5.6.4)
+  - AvailableHapticFeedback (1.0.2)
+  - DPOTPView (1.5.12)
+  - DropDown (2.3.13)
+  - Firebase/Analytics (10.3.0):
+    - Firebase/Core
+  - Firebase/Core (10.3.0):
+    - Firebase/CoreOnly
+    - FirebaseAnalytics (~> 10.3.0)
+  - Firebase/CoreOnly (10.3.0):
+    - FirebaseCore (= 10.3.0)
+  - Firebase/DynamicLinks (10.3.0):
+    - Firebase/CoreOnly
+    - FirebaseDynamicLinks (~> 10.3.0)
+  - Firebase/Messaging (10.3.0):
+    - Firebase/CoreOnly
+    - FirebaseMessaging (~> 10.3.0)
+  - FirebaseAnalytics (10.3.0):
+    - FirebaseAnalytics/AdIdSupport (= 10.3.0)
+    - FirebaseCore (~> 10.0)
+    - FirebaseInstallations (~> 10.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.8)
+    - GoogleUtilities/MethodSwizzler (~> 7.8)
+    - GoogleUtilities/Network (~> 7.8)
+    - "GoogleUtilities/NSData+zlib (~> 7.8)"
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - FirebaseAnalytics/AdIdSupport (10.3.0):
+    - FirebaseCore (~> 10.0)
+    - FirebaseInstallations (~> 10.0)
+    - GoogleAppMeasurement (= 10.3.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.8)
+    - GoogleUtilities/MethodSwizzler (~> 7.8)
+    - GoogleUtilities/Network (~> 7.8)
+    - "GoogleUtilities/NSData+zlib (~> 7.8)"
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - FirebaseCore (10.3.0):
+    - FirebaseCoreInternal (~> 10.0)
+    - GoogleUtilities/Environment (~> 7.8)
+    - GoogleUtilities/Logger (~> 7.8)
+  - FirebaseCoreInternal (10.3.0):
+    - "GoogleUtilities/NSData+zlib (~> 7.8)"
+  - FirebaseDynamicLinks (10.3.0):
+    - FirebaseCore (~> 10.0)
+  - FirebaseInstallations (10.3.0):
+    - FirebaseCore (~> 10.0)
+    - GoogleUtilities/Environment (~> 7.8)
+    - GoogleUtilities/UserDefaults (~> 7.8)
+    - PromisesObjC (~> 2.1)
+  - FirebaseMessaging (10.3.0):
+    - FirebaseCore (~> 10.0)
+    - FirebaseInstallations (~> 10.0)
+    - GoogleDataTransport (~> 9.2)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.8)
+    - GoogleUtilities/Environment (~> 7.8)
+    - GoogleUtilities/Reachability (~> 7.8)
+    - GoogleUtilities/UserDefaults (~> 7.8)
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - FSPagerView (0.8.3)
+  - GoogleAppMeasurement (10.3.0):
+    - GoogleAppMeasurement/AdIdSupport (= 10.3.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.8)
+    - GoogleUtilities/MethodSwizzler (~> 7.8)
+    - GoogleUtilities/Network (~> 7.8)
+    - "GoogleUtilities/NSData+zlib (~> 7.8)"
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - GoogleAppMeasurement/AdIdSupport (10.3.0):
+    - GoogleAppMeasurement/WithoutAdIdSupport (= 10.3.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.8)
+    - GoogleUtilities/MethodSwizzler (~> 7.8)
+    - GoogleUtilities/Network (~> 7.8)
+    - "GoogleUtilities/NSData+zlib (~> 7.8)"
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - GoogleAppMeasurement/WithoutAdIdSupport (10.3.0):
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.8)
+    - GoogleUtilities/MethodSwizzler (~> 7.8)
+    - GoogleUtilities/Network (~> 7.8)
+    - "GoogleUtilities/NSData+zlib (~> 7.8)"
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - GoogleDataTransport (9.2.0):
+    - GoogleUtilities/Environment (~> 7.7)
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleMaps (7.2.0):
+    - GoogleMaps/Maps (= 7.2.0)
+  - GoogleMaps/Base (7.2.0)
+  - GoogleMaps/Maps (7.2.0):
+    - GoogleMaps/Base
+  - GoogleUtilities/AppDelegateSwizzler (7.10.0):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (7.10.0):
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleUtilities/Logger (7.10.0):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/MethodSwizzler (7.10.0):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/Network (7.10.0):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (7.10.0)"
+  - GoogleUtilities/Reachability (7.10.0):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/UserDefaults (7.10.0):
+    - GoogleUtilities/Logger
+  - IBAnimatable (6.1.0)
+  - IQKeyboardManagerSwift (6.5.10)
+  - Kingfisher (7.4.1)
+  - MultiSlider (1.13.2):
+    - AvailableHapticFeedback
+    - SweeterSwift
+  - nanopb (2.30909.0):
+    - nanopb/decode (= 2.30909.0)
+    - nanopb/encode (= 2.30909.0)
+  - nanopb/decode (2.30909.0)
+  - nanopb/encode (2.30909.0)
+  - PPBadgeViewSwift (3.1.0)
+  - PromisesObjC (2.1.1)
+  - SDWebImage (5.14.2):
+    - SDWebImage/Core (= 5.14.2)
+  - SDWebImage/Core (5.14.2)
+  - Siren (5.8.1)
+  - SKPhotoBrowser (7.1.0)
+  - SweeterSwift (1.2.1)
+  - SwiftMessages (9.0.6):
+    - SwiftMessages/App (= 9.0.6)
+  - SwiftMessages/App (9.0.6)
+  - SwipeCellKit (2.7.1)
+  - TamaraSDK (0.1.1)
+  - Urway (1.1.4)
+
+DEPENDENCIES:
+  - Alamofire
+  - DPOTPView
+  - DropDown
+  - Firebase/Analytics
+  - Firebase/Core
+  - Firebase/DynamicLinks
+  - Firebase/Messaging
+  - FSPagerView
+  - GoogleMaps
+  - IBAnimatable
+  - IQKeyboardManagerSwift
+  - Kingfisher
+  - MultiSlider
+  - PPBadgeViewSwift
+  - SDWebImage
+  - Siren
+  - SKPhotoBrowser
+  - SwiftMessages
+  - SwipeCellKit
+  - TamaraSDK (from `https://github.com/tamara-solution/ios-sdk.git`)
+  - Urway (from `https://github.com/URWAYios/UrwaySDK.git`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AvailableHapticFeedback
+    - DPOTPView
+    - DropDown
+    - Firebase
+    - FirebaseAnalytics
+    - FirebaseCore
+    - FirebaseCoreInternal
+    - FirebaseDynamicLinks
+    - FirebaseInstallations
+    - FirebaseMessaging
+    - FSPagerView
+    - GoogleAppMeasurement
+    - GoogleDataTransport
+    - GoogleMaps
+    - GoogleUtilities
+    - IBAnimatable
+    - IQKeyboardManagerSwift
+    - Kingfisher
+    - MultiSlider
+    - nanopb
+    - PPBadgeViewSwift
+    - PromisesObjC
+    - SDWebImage
+    - Siren
+    - SKPhotoBrowser
+    - SweeterSwift
+    - SwiftMessages
+    - SwipeCellKit
+
+EXTERNAL SOURCES:
+  TamaraSDK:
+    :git: https://github.com/tamara-solution/ios-sdk.git
+  Urway:
+    :git: https://github.com/URWAYios/UrwaySDK.git
+
+CHECKOUT OPTIONS:
+  TamaraSDK:
+    :commit: 12058d5e184566cba8f6d943609d588d6a063b9b
+    :git: https://github.com/tamara-solution/ios-sdk.git
+  Urway:
+    :commit: 26f75b93be1f62e069d9897adef988d52cf4f453
+    :git: https://github.com/URWAYios/UrwaySDK.git
+
+SPEC CHECKSUMS:
+  Alamofire: 4e95d97098eacb88856099c4fc79b526a299e48c
+  AvailableHapticFeedback: 9b21b9f6d3e4566015988b5de35b40abefe6c09a
+  DPOTPView: 28d8a0a84a2ff4b1e4a7712065aba1cbb14e2704
+  DropDown: 8a2116376c1981888557f72ec2ffc9a5e0e456ec
+  Firebase: f92fc551ead69c94168d36c2b26188263860acd9
+  FirebaseAnalytics: 036232b6a1e2918e5f67572417be1173576245f3
+  FirebaseCore: 988754646ab3bd4bdcb740f1bfe26b9f6c0d5f2a
+  FirebaseCoreInternal: 29b76f784d607df8b2a1259d73c3f04f1210137b
+  FirebaseDynamicLinks: 51c81d07bd63155bb56d76b0abdda79c8a3d8d02
+  FirebaseInstallations: e2f26126089dcf41e215f7b8925af8d953c7d602
+  FirebaseMessaging: e345b219fd15d325f0cf2fef28cb8ce00d851b3f
+  FSPagerView: 670405b2f18e2a87fa37f20b00de783e562c25a8
+  GoogleAppMeasurement: c7d6fff39bf2d829587d74088d582e32d75133c3
+  GoogleDataTransport: 1c8145da7117bd68bbbed00cf304edb6a24de00f
+  GoogleMaps: 65ce5426e2398bb81433c8076f2ab6419c2c5537
+  GoogleUtilities: bad72cb363809015b1f7f19beb1f1cd23c589f95
+  IBAnimatable: 99dddd4c0625884a301ba3ecbc1615f8a390368e
+  IQKeyboardManagerSwift: 52962c76ab33532f15ad9f3ff4e5715eda5335bb
+  Kingfisher: cd762a593a61b2fbecf7645c00f9a801a3ebfc9c
+  MultiSlider: 66271d410330e63ded9e468d4ef420d5dbe31d2e
+  nanopb: b552cce312b6c8484180ef47159bc0f65a1f0431
+  PPBadgeViewSwift: 18a219a9897f418342c22dd1a54f7b18ac56546b
+  PromisesObjC: ab77feca74fa2823e7af4249b8326368e61014cb
+  SDWebImage: b9a731e1d6307f44ca703b3976d18c24ca561e84
+  Siren: de768099aff1f1c9acda4247064788a4940b4bf3
+  SKPhotoBrowser: cd95b95a6f352fc2a50992721299f75ead77f9ab
+  SweeterSwift: 61baeda1c0c27d1dc57c8112c3d6a82e5aff3139
+  SwiftMessages: f0c7ef4705a570ad6c5e208b611f4333e660ed92
+  SwipeCellKit: 3972254a826da74609926daf59b08d6c72e619ea
+  TamaraSDK: d26c33c50f456b56231b616d6b2b9fb3d5a3a226
+  Urway: 7c516643172ca7bc3f1ef0b70e40b0397f51cbac
+
+PODFILE CHECKSUM: c740fdbf3213b64f44eb9cb5196b82b839bde0c4
+
+COCOAPODS: 1.11.3

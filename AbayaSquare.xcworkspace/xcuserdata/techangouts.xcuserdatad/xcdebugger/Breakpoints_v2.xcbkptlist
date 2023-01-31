@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "21A8EF6D-5AFD-4174-AF39-9C3953CF439F"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "431BAEFF-74AD-4B30-837F-3320F7826887"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AbayaSquare/Screens/OrderProcess/PaymentMethod/PaymentMethodVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "306"
+            endingLineNumber = "306"
+            landmarkName = "onSuccess(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0173E994-13E2-4CAA-8F01-EC07D4C47F8C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AbayaSquare/Screens/OrderProcess/PaymentMethod/PaymentMethodVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "304"
+            endingLineNumber = "304"
+            landmarkName = "onSuccess(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "01573C01-9002-40B7-9791-C4D02F1C46CC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AbayaSquare/Shared/Extenstions/UIKit/UIViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "onFailure(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "01573C01-9002-40B7-9791-C4D02F1C46CC - c09c9f20e6565815"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__C.UIViewController.onFailure(AbayaSquare.APIError) -&gt; ()"
+                  moduleName = "AbayaSquare"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/techangouts/Documents/CodeLab%20Projects/abayasquare/AbayaSquare/Shared/Extenstions/UIKit/UIViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "240">
+               </Location>
+               <Location
+                  uuid = "01573C01-9002-40B7-9791-C4D02F1C46CC - c09c9f20e6565815"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__C.UIViewController.onFailure(AbayaSquare.APIError) -&gt; ()"
+                  moduleName = "AbayaSquare"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/techangouts/Documents/CodeLab%20Projects/abayasquare/AbayaSquare/Shared/Extenstions/UIKit/UIViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "268">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

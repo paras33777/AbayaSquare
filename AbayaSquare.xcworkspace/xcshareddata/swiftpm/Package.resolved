@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "tabby-ios-sdk",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/tabby-ai/tabby-ios-sdk.git",
+      "state" : {
+        "revision" : "10cb034af2f89e2ec173e3d74447d65addda9d59",
+        "version" : "1.4.1"
+      }
+    }
+  ],
+  "version" : 2
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>179669305758-9ibkequlgrc34g93620f541i11ceopc5.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.179669305758-9ibkequlgrc34g93620f541i11ceopc5</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>179669305758-k5rksnm90oa6prkdo260o2j2na6l2iu3.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBMPGmvspAYgZNaAZ_z7-0h3AQkl6zX9mo</string>
+	<key>GCM_SENDER_ID</key>
+	<string>179669305758</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.selsela.abayasquare</string>
+	<key>PROJECT_ID</key>
+	<string>abaya-square</string>
+	<key>STORAGE_BUCKET</key>
+	<string>abaya-square.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:179669305758:ios:3956b84f83fafc32126e8f</string>
+</dict>
+</plist>

@@ -1,0 +1,6 @@
+framework module Pods_AbayaSquare {
+  umbrella header "Pods-AbayaSquare-umbrella.h"
+
+  export *
+  module * { export * }
+}

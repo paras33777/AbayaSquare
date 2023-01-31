@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="CategoriesCellGrid" customModule="AbayaSquare" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="170" height="230"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="170" height="230"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="i6W-d5-Hfx">
+                        <rect key="frame" x="0.0" y="0.0" width="170" height="230"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cat_image" translatesAutoresizingMaskIntoConstraints="NO" id="lvM-zj-pci" customClass="AnimatableImageView" customModule="IBAnimatable">
+                                <rect key="frame" x="0.0" y="0.0" width="170" height="170"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="lvM-zj-pci" secondAttribute="height" multiplier="1:1" id="IOF-Q7-eIo"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dresses" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Is-ZE-c3D">
+                                <rect key="frame" x="12" y="170" width="146" height="60"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                                <color key="textColor" red="0.43921568630000002" green="0.43921568630000002" blue="0.43921568630000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="lvM-zj-pci" firstAttribute="centerX" secondItem="i6W-d5-Hfx" secondAttribute="centerX" id="1ys-gH-SiV"/>
+                            <constraint firstAttribute="trailing" secondItem="lvM-zj-pci" secondAttribute="trailing" id="2XL-ii-n36"/>
+                            <constraint firstItem="lvM-zj-pci" firstAttribute="leading" secondItem="i6W-d5-Hfx" secondAttribute="leading" id="787-MY-M6Y"/>
+                            <constraint firstItem="4Is-ZE-c3D" firstAttribute="leading" secondItem="i6W-d5-Hfx" secondAttribute="leading" constant="12" id="Onv-nU-wFs"/>
+                            <constraint firstAttribute="trailing" secondItem="4Is-ZE-c3D" secondAttribute="trailing" constant="12" id="T3E-2q-DMx"/>
+                            <constraint firstItem="lvM-zj-pci" firstAttribute="top" secondItem="i6W-d5-Hfx" secondAttribute="top" id="U32-j1-uu5"/>
+                            <constraint firstItem="4Is-ZE-c3D" firstAttribute="top" secondItem="lvM-zj-pci" secondAttribute="bottom" id="xOD-lc-NV1"/>
+                            <constraint firstAttribute="bottom" secondItem="4Is-ZE-c3D" secondAttribute="bottom" id="yDX-fi-j87"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="i6W-d5-Hfx" secondAttribute="trailing" id="9L9-M4-3XO"/>
+                <constraint firstItem="i6W-d5-Hfx" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="UAk-uo-BFg"/>
+                <constraint firstAttribute="bottom" secondItem="i6W-d5-Hfx" secondAttribute="bottom" id="ZU4-sM-F6b"/>
+                <constraint firstItem="i6W-d5-Hfx" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="uey-YG-Nji"/>
+            </constraints>
+            <connections>
+                <outlet property="categoryImage" destination="lvM-zj-pci" id="dxI-yt-Gni"/>
+                <outlet property="categoryNameLB" destination="4Is-ZE-c3D" id="6Mu-yI-JrL"/>
+            </connections>
+            <point key="canvasLocation" x="90" y="88"/>
+        </collectionViewCell>
+    </objects>
+    <designables>
+        <designable name="lvM-zj-pci">
+            <size key="intrinsicContentSize" width="451" height="455"/>
+        </designable>
+    </designables>
+    <resources>
+        <image name="cat_image" width="451" height="455"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

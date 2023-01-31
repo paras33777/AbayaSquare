@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="HomeCell" customModule="AbayaSquare" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="163" height="239"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="163" height="239"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vTw-Jv-lkz">
+                        <rect key="frame" x="0.0" y="0.0" width="163" height="239"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="intro_image" translatesAutoresizingMaskIntoConstraints="NO" id="ZaS-ii-hL6" customClass="AnimatableImageView" customModule="IBAnimatable">
+                                <rect key="frame" x="0.0" y="0.0" width="163" height="167.5"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" name="#958876"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <button hidden="YES" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V50-8l-nM2" customClass="AnimatableButton" customModule="IBAnimatable">
+                                <rect key="frame" x="123" y="16" width="32" height="32"/>
+                                <color key="backgroundColor" red="0.92549019610000005" green="0.92549019610000005" blue="0.92549019610000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="32" id="Gva-RZ-8ca"/>
+                                    <constraint firstAttribute="width" secondItem="V50-8l-nM2" secondAttribute="height" multiplier="1:1" id="ecH-MP-Cup"/>
+                                </constraints>
+                                <color key="tintColor" red="0.54901960780000003" green="0.54901960780000003" blue="0.54901960780000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" image="heart" catalog="system">
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="22"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="16"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="didTapButton:" destination="gTV-IL-0wX" eventType="touchUpInside" id="Ihn-lT-8Ax"/>
+                                </connections>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="V9v-PE-r9Q">
+                                <rect key="frame" x="0.0" y="167.5" width="163" height="71.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VAu-2W-U4b">
+                                        <rect key="frame" x="0.0" y="0.0" width="163" height="0.0"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                        <color key="textColor" name="#2C2826"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wTt-Uu-wZh">
+                                        <rect key="frame" x="0.0" y="0.0" width="163" height="71.5"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                        <color key="textColor" name="#958876"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ZaS-ii-hL6" firstAttribute="height" secondItem="vTw-Jv-lkz" secondAttribute="height" multiplier="0.7" id="2YI-Jo-iWv"/>
+                            <constraint firstItem="V50-8l-nM2" firstAttribute="trailing" secondItem="ZaS-ii-hL6" secondAttribute="trailing" constant="-8" id="2tf-zL-yuE"/>
+                            <constraint firstItem="ZaS-ii-hL6" firstAttribute="bottom" secondItem="V9v-PE-r9Q" secondAttribute="top" id="7Vr-Zk-jzF"/>
+                            <constraint firstItem="V9v-PE-r9Q" firstAttribute="leading" secondItem="vTw-Jv-lkz" secondAttribute="leading" id="7dR-OW-G9d"/>
+                            <constraint firstItem="ZaS-ii-hL6" firstAttribute="leading" secondItem="vTw-Jv-lkz" secondAttribute="leading" id="I9O-ip-kSh"/>
+                            <constraint firstAttribute="bottom" secondItem="V9v-PE-r9Q" secondAttribute="bottom" id="VLr-7N-tcc"/>
+                            <constraint firstItem="V50-8l-nM2" firstAttribute="top" secondItem="ZaS-ii-hL6" secondAttribute="top" constant="16" id="WRX-21-YqS"/>
+                            <constraint firstItem="ZaS-ii-hL6" firstAttribute="top" secondItem="vTw-Jv-lkz" secondAttribute="top" id="gcc-M2-MeH"/>
+                            <constraint firstAttribute="trailing" secondItem="ZaS-ii-hL6" secondAttribute="trailing" id="i0s-Tu-5eW"/>
+                            <constraint firstAttribute="trailing" secondItem="V9v-PE-r9Q" secondAttribute="trailing" id="z3x-is-Fn3"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="vTw-Jv-lkz" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="6JT-4A-MD5"/>
+                <constraint firstAttribute="trailing" secondItem="vTw-Jv-lkz" secondAttribute="trailing" id="G0P-MD-kyQ"/>
+                <constraint firstItem="vTw-Jv-lkz" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="LVK-q9-aY2"/>
+                <constraint firstAttribute="bottom" secondItem="vTw-Jv-lkz" secondAttribute="bottom" id="eis-Cl-xbw"/>
+            </constraints>
+            <size key="customSize" width="163" height="239"/>
+            <connections>
+                <outlet property="favoriteButton" destination="V50-8l-nM2" id="HjC-Fx-Y1w"/>
+                <outlet property="priceLabel" destination="wTt-Uu-wZh" id="EjV-hW-nZ2"/>
+                <outlet property="productImage" destination="ZaS-ii-hL6" id="gkf-kX-b4O"/>
+                <outlet property="productNameLB" destination="VAu-2W-U4b" id="9yU-yP-7dq"/>
+            </connections>
+            <point key="canvasLocation" x="171.73913043478262" y="77.34375"/>
+        </collectionViewCell>
+    </objects>
+    <designables>
+        <designable name="V50-8l-nM2">
+            <size key="intrinsicContentSize" width="26.5" height="24"/>
+        </designable>
+        <designable name="ZaS-ii-hL6">
+            <size key="intrinsicContentSize" width="1585" height="1055"/>
+        </designable>
+    </designables>
+    <resources>
+        <image name="heart" catalog="system" width="128" height="109"/>
+        <image name="intro_image" width="1585" height="1055"/>
+        <namedColor name="#2C2826">
+            <color red="0.17254901960784313" green="0.15686274509803921" blue="0.14901960784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="#958876">
+            <color red="0.58399999141693115" green="0.53299999237060547" blue="0.46299999952316284" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
